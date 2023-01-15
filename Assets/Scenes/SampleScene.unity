@@ -337,6 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2998b66a6206e68439e599c372d266a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myArray: 0a000000f3ffffff9cffffff6500000007000000
 --- !u!114 &1920968532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,6 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 587f3e5ecc742b74fa0aebee9b51edfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myArray: 0a000000f3ffffff9cffffff6500000007000000
 --- !u!114 &1920968533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,6 +375,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 944a267d92b3a87409b51d06f98ea3e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  username: Mario
+  password: 1234
 --- !u!114 &1920968535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,9 +389,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a76f5d5ec85fddf41b607bd83ffbc427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
-  z: 0
+  x: 2
+  y: 7
+  z: 11
 --- !u!65 &1920968536
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class Exercise4 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int[] myArray = new int[5];
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        Debug.Log("First element: " + myArray[0]);
+        Debug.Log("Third element: " + myArray[2]);
+        Debug.Log("Fifth element: " + myArray[4]);
     }
 }

@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class Exercise1 : MonoBehaviour
 {
-    public int x;
-    public int y;
-    public int z;
+    public float x;
+    public float y;
+    public float z;
 
-    private void Start()
+    void Start()
     {
-        
+        float arithmeticMean = CalculateMean(x, y, z);
+        Debug.Log("The mean of the values is: " + arithmeticMean);
     }
 
-    private void Arithmetic(int x, int y, int z)
+    float CalculateMean(float x, float y, float z)
     {
-
+        return (x + y + z) / 3;
     }
-
 }

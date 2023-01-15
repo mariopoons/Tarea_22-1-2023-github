@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Exercise5 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
+    public int[] myArray = new int[5];
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (myArray.Length >= 5)
+        {
+            Debug.Log("First element: " + myArray[0]);
+            Debug.Log("Third element: " + myArray[2]);
+            Debug.Log("Fifth element: " + myArray[4]);
+        }
+        else
+        {
+            Debug.Log("Missing elements");
+        }
     }
 }
+

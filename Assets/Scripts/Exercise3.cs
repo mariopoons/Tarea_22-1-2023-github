@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Exercise3 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private int counter = 1;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            Debug.Log($"You pressed {counter} times A");
+            AddCounter();
+        }
+    }
+
+   void AddCounter()
+    {
+        counter++;
+            if (counter >= 11)
+        {
+            Debug.Log("Game Over");
+        }
     }
 }
