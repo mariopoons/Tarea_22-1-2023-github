@@ -11,7 +11,7 @@ public class Exercise1 : MonoBehaviour
     void Start()
     {
         float arithmeticMean = CalculateMean(x, y, z);
-        Debug.Log("The mean of the values is: " + arithmeticMean);
+        Debug.Log("The mean of the values is " + arithmeticMean);
     }
 
     float CalculateMean(float x, float y, float z)
